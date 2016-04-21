@@ -1,4 +1,4 @@
-var invertTree = function(root) {
+function invertTree(root) {
   swapNodes(root);
   return root;
 
